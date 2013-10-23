@@ -11,4 +11,5 @@
 !/protected/config/*.conf
 /protected/runtime/*
 /themes/classic/
-
+/backbone.sublime-project
+/backbone.sublime-workspace
