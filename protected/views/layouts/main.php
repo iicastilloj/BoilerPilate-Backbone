@@ -17,12 +17,14 @@
 		baseUrlDeveloper: "<?php echo Yii::app()->baseUrl ?>/js/src/"
 	}
 	</script>
-<div class="container" id="page">
+<div class="container" id="content">
 	<div class="row">
 		<div class="clo-md-12">
 			<?php echo $content; ?>
 		</div>
 	</div>
+
+<!--<script src="<?php echo Yii::app()->baseUrl ?>/js/lib/require.min.js" data-main="<?php echo Yii::app()->baseUrl ?>/prod/app"></script>-->
 <script src="<?php echo Yii::app()->baseUrl ?>/js/lib/require.min.js" data-main="<?php echo Yii::app()->baseUrl ?>/js/src/js/app"></script>
 </body>
 </html>
